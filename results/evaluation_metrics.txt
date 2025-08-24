@@ -1,0 +1,51 @@
+---------- Logistic Regression Results ------------
+Accuracy Score :  0.6333333333333333
+Precision Score :  0.6333333333333333
+Recall Score :  0.6333333333333333
+F1 Score :  0.6333333333333333
+ROC AUC Score :  0.8275648643719802
+
+---------- Decision Tree Results ------------
+Accuracy Score :  0.5833333333333334
+Precision Score :  0.5833333333333334
+Recall Score :  0.5833333333333334
+F1 Score :  0.5833333333333334
+ROC AUC Score :  1.0
+
+---------- Random Forest Results ------------
+Accuracy Score :  0.6333333333333333
+Precision Score :  0.6333333333333333
+Recall Score :  0.6333333333333333
+F1 Score :  0.6333333333333333
+ROC AUC Score :  1.0
+
+---------- Support Vector Machine Results ------------
+Accuracy Score :  0.6333333333333333
+Precision Score :  0.6333333333333333
+Recall Score :  0.6333333333333333
+F1 Score :  0.6333333333333333
+ROC AUC Score :  0.8205847089199592
+
+---------- Optimizing Hyperparamters using GridSearchCV ---------
+
+---------- Logistic Regression Results ------------
+Best parameters found: {'max_iter': 100, 'penalty': 'l2', 'solver': 'lbfgs'}
+Best cross-validation accuracy: 0.5865
+Test set accuracy with best model: 0.6333
+
+---------- Decision Tree Results ------------
+Best parameters found: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 2}
+Best cross-validation accuracy: 0.6203
+Test set accuracy with best model: 0.6167
+
+
+---------- Random Forest Results ------------
+Best parameters found: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 6, 'n_estimators': 200}
+Best cross-validation accuracy: 0.6115
+Test set accuracy with best model: 0.5833
+
+---------- Support Vector Machine Results ------------
+Best parameters found: {'kernel': 'linear', 'max_iter': -1, 'shrinking': True}
+Best cross-validation accuracy: 0.5949
+Test set accuracy with best model: 0.6500
+
