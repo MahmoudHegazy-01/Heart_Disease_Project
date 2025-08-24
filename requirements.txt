@@ -1,0 +1,23 @@
+# Core
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
+ipykernel
+
+# Model export
+pickle
+
+# For importing
+importnb
+importlib
+
+# Clustering / dendrograms
+scipy
+yellowbrick
